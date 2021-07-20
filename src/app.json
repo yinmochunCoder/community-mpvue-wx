@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/logs/main",
+    "pages/counter/main",
+    "packageA/msg/main",
+    "packageA/hot/main",
+    "pages/center/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#02D199",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/main",
+        "iconPath": "static/images/tab_home_no.png",
+        "selectedIconPath": "static/images/tab_home_yes.png"
+      },
+      {
+        "text": "消息",
+        "pagePath": "packageA/msg/main",
+        "iconPath": "static/images/tab_news_no.png",
+        "selectedIconPath": "static/images/tab_news_yes.png"
+      },
+      {
+        "text": "热门",
+        "pagePath": "packageA/hot/main",
+        "iconPath": "static/images/tab_popular_no.png",
+        "selectedIconPath": "static/images/tab_popular_yes.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/center/main",
+        "iconPath": "static/images/tab_my_no.png",
+        "selectedIconPath": "static/images/tab_my_yes.png"
+      }
+    ],
+    "position": "bottom"
+  },
+  "usingComponents": {
+    "van-button": "miniprogram_npm/@vant/weapp/button/index"
+  }
+
+}
